@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04336C0AF2F1D3718258D081E84F75E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0EF8E9AA652DBE2745A7D5C8CD2E3BDE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F093792CEED949950BAD5B781807F /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6003D8DE3F6D232F10F12568786D6F39 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		282081E035E7A843068E8BCC2E07C217 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCA35116029689BC6F702A8D343EA /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		306C1F93EAE86DA2E74CAB54CC658B12 /* HYBLoadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B0A23CC9DE2B0DAA901BFF977EE1CF /* HYBLoadImageView.m */; };
+		313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 89DE1477408EDA098C49D4A75730E318 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3846C778E2E18BCD9B81794A263B7DC8 /* HYBLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED9023A174189571D0E85A01AE0F77 /* HYBLoopScrollView.m */; };
+		3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F103B81D7BBE28C7C2BA818E084F27DC /* FMDB-dummy.m */; };
+		4AA17907FF3A29BF7CA5E9E9A120F7D6 /* HYBPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAFAB0C532FB97F3F704EB1764A1C58 /* HYBPageControl.m */; };
+		53D652D0F89B5A655DEFDA92E828017A /* UIView+HYBUIViewCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F6A80E8F77DF129BE8D2719B2A29B /* UIView+HYBUIViewCommon.m */; };
+		579715361A5932075B3A3EE6DC057517 /* HYBLoopScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = A2BED4B90252DC05668F8B7047F6067A /* HYBLoopScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63E447CE49577FC0077CF160C37A5F22 /* Pods-类似QQ主页的侧滑-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A572A1757085726C62C1E338045E8B /* Pods-类似QQ主页的侧滑-dummy.m */; };
+		6FEEB5268DCE3346AF565040928C1B26 /* HYBLoadImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F19BA457717D945C9AAB5BD0B657F446 /* HYBLoadImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A350C5704A1F233DAD830E081E00F8C1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AF1F448F0075FA514853B4AC54D77B /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A561A67BF274ABC8C70A4FFA23D56C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AE89D053889B16F83EF204A5C7FAC050 /* UIView+HYBUIViewCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = ACCFCEC31E3D3308DDE89AEDBEE1E604 /* UIView+HYBUIViewCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 302FB943C57432BFA0D9235FC2813A4F /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA027706DD6805766F1F4EC548E72440 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D91C0B3D66E301CF171FD8C00F1CB /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 394686E66B7C068A79AFA8CFD3AACACB /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4F01ABF0C8FFD236E63504A604242C /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D35AEE78FD4538FE9F42758D89A7EEAE /* HYBLoopScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1F2AAB26F8DA4C68BAA42E6466187B /* HYBLoopScrollView-dummy.m */; };
+		DEFA3504695E9DFDE1177DAB22884470 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E19E3539EA3632E5F34B1AD35A4B46A /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E50BEB96467F916BCAECCB5F1FC8CE38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EBB40C1A61824C9A3FE7F4DF4CC5F0A6 /* HYBPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = CF66969C3604869C64B1A0FD5D975146 /* HYBPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF45D5E7EBB55ABFF338DEAB640D38D /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB6C0542672BC45E6123F72E2A8FCF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F12FB4A63E20F601CFB2E64A65B57C1;
+			remoteInfo = FMDB;
+		};
+		F1FF7C462112E427C547D770B890D6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 444D8BC4BC851AA3A8C29BCFD5452928;
+			remoteInfo = HYBLoopScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E6E7F3A02D66DDB678058807D28863 /* libHYBLoopScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHYBLoopScrollView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8D91C0B3D66E301CF171FD8C00F1CB /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		12076E7EAE6E028AA1368852867FA45A /* Pods-类似QQ主页的侧滑.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-类似QQ主页的侧滑.debug.xcconfig"; sourceTree = "<group>"; };
+		238F093792CEED949950BAD5B781807F /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		29ED9023A174189571D0E85A01AE0F77 /* HYBLoopScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYBLoopScrollView.m; path = HYBLoopScrollView/HYBLoopScrollView/HYBLoopScrollView.m; sourceTree = "<group>"; };
+		2E4F01ABF0C8FFD236E63504A604242C /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		302FB943C57432BFA0D9235FC2813A4F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		37A572A1757085726C62C1E338045E8B /* Pods-类似QQ主页的侧滑-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-类似QQ主页的侧滑-dummy.m"; sourceTree = "<group>"; };
+		380753CC6214792458D207AE4961D385 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		394686E66B7C068A79AFA8CFD3AACACB /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		4AF45D5E7EBB55ABFF338DEAB640D38D /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		4C0F6A80E8F77DF129BE8D2719B2A29B /* UIView+HYBUIViewCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HYBUIViewCommon.m"; path = "HYBLoopScrollView/HYBLoopScrollView/UIView+HYBUIViewCommon.m"; sourceTree = "<group>"; };
+		4E19E3539EA3632E5F34B1AD35A4B46A /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		50AF1F448F0075FA514853B4AC54D77B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5AAFAB0C532FB97F3F704EB1764A1C58 /* HYBPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYBPageControl.m; path = HYBLoopScrollView/HYBLoopScrollView/HYBPageControl.m; sourceTree = "<group>"; };
+		6003D8DE3F6D232F10F12568786D6F39 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		6055680F0526610A04A13BF42ABED0AC /* Pods-类似QQ主页的侧滑-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-类似QQ主页的侧滑-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65A7D3DADC8CF209A6D76F6C9FCBC806 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		734C00CFB6D14FFE36F01FAE157594DE /* Pods-类似QQ主页的侧滑-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-类似QQ主页的侧滑-frameworks.sh"; sourceTree = "<group>"; };
+		7BF9A9C0B59233D93C3ABA2F5D398ABE /* libPods-类似QQ主页的侧滑.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-类似QQ主页的侧滑.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DE1477408EDA098C49D4A75730E318 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		8FA92C8889D92A8119BED9EFB0AD9F20 /* Pods-类似QQ主页的侧滑-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-类似QQ主页的侧滑-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2BED4B90252DC05668F8B7047F6067A /* HYBLoopScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYBLoopScrollView.h; path = HYBLoopScrollView/HYBLoopScrollView/HYBLoopScrollView.h; sourceTree = "<group>"; };
+		ACCFCEC31E3D3308DDE89AEDBEE1E604 /* UIView+HYBUIViewCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HYBUIViewCommon.h"; path = "HYBLoopScrollView/HYBLoopScrollView/UIView+HYBUIViewCommon.h"; sourceTree = "<group>"; };
+		BB3AE59A3200FC561EFCE5AAF057E20D /* Pods-类似QQ主页的侧滑.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-类似QQ主页的侧滑.release.xcconfig"; sourceTree = "<group>"; };
+		BFF657E9D201664B17D7C3FCDCE83B6B /* HYBLoopScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYBLoopScrollView.xcconfig; sourceTree = "<group>"; };
+		C0B0A23CC9DE2B0DAA901BFF977EE1CF /* HYBLoadImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYBLoadImageView.m; path = HYBLoopScrollView/HYBLoopScrollView/HYBLoadImageView.m; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF66969C3604869C64B1A0FD5D975146 /* HYBPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYBPageControl.h; path = HYBLoopScrollView/HYBLoopScrollView/HYBPageControl.h; sourceTree = "<group>"; };
+		DCAFCA35116029689BC6F702A8D343EA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		E795BC91D5C907BB42B3A272516B4A28 /* Pods-类似QQ主页的侧滑-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-类似QQ主页的侧滑-resources.sh"; sourceTree = "<group>"; };
+		E8659315175C1F3F7F42801DA437E649 /* HYBLoopScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYBLoopScrollView-prefix.pch"; sourceTree = "<group>"; };
+		F103B81D7BBE28C7C2BA818E084F27DC /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		F19BA457717D945C9AAB5BD0B657F446 /* HYBLoadImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYBLoadImageView.h; path = HYBLoopScrollView/HYBLoopScrollView/HYBLoadImageView.h; sourceTree = "<group>"; };
+		FA4DEA9C7BB5F7BA1524A3E28FEF70DE /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		FC1F2AAB26F8DA4C68BAA42E6466187B /* HYBLoopScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYBLoopScrollView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AF63084FFE4472EFC6131BD113B13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A561A67BF274ABC8C70A4FFA23D56C59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36F9D77B72E6739E5EC8E8111F1F029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50BEB96467F916BCAECCB5F1FC8CE38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52C8E6543247E32D98925750F6AC2F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04336C0AF2F1D3718258D081E84F75E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ABBFD6B0CD6CDE6E86D82D87FF36847 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				3FA32BE05A632594C52086A24E92AFC7 /* standard */,
+				D8F6119A226D4D86F14131132A2DD807 /* Support Files */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		31DE3351C8D42C336D7C116FAE804753 /* Pods-类似QQ主页的侧滑 */ = {
+			isa = PBXGroup;
+			children = (
+				6055680F0526610A04A13BF42ABED0AC /* Pods-类似QQ主页的侧滑-acknowledgements.markdown */,
+				8FA92C8889D92A8119BED9EFB0AD9F20 /* Pods-类似QQ主页的侧滑-acknowledgements.plist */,
+				37A572A1757085726C62C1E338045E8B /* Pods-类似QQ主页的侧滑-dummy.m */,
+				734C00CFB6D14FFE36F01FAE157594DE /* Pods-类似QQ主页的侧滑-frameworks.sh */,
+				E795BC91D5C907BB42B3A272516B4A28 /* Pods-类似QQ主页的侧滑-resources.sh */,
+				12076E7EAE6E028AA1368852867FA45A /* Pods-类似QQ主页的侧滑.debug.xcconfig */,
+				BB3AE59A3200FC561EFCE5AAF057E20D /* Pods-类似QQ主页的侧滑.release.xcconfig */,
+			);
+			name = "Pods-类似QQ主页的侧滑";
+			path = "Target Support Files/Pods-类似QQ主页的侧滑";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3FA32BE05A632594C52086A24E92AFC7 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				2E4F01ABF0C8FFD236E63504A604242C /* FMDatabase.h */,
+				0A8D91C0B3D66E301CF171FD8C00F1CB /* FMDatabase.m */,
+				302FB943C57432BFA0D9235FC2813A4F /* FMDatabaseAdditions.h */,
+				50AF1F448F0075FA514853B4AC54D77B /* FMDatabaseAdditions.m */,
+				6003D8DE3F6D232F10F12568786D6F39 /* FMDatabasePool.h */,
+				238F093792CEED949950BAD5B781807F /* FMDatabasePool.m */,
+				394686E66B7C068A79AFA8CFD3AACACB /* FMDatabaseQueue.h */,
+				DCAFCA35116029689BC6F702A8D343EA /* FMDatabaseQueue.m */,
+				89DE1477408EDA098C49D4A75730E318 /* FMDB.h */,
+				4AF45D5E7EBB55ABFF338DEAB640D38D /* FMResultSet.h */,
+				4E19E3539EA3632E5F34B1AD35A4B46A /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		6931BEB2FFFB841FC1EC085F2D059CE0 /* HYBLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F19BA457717D945C9AAB5BD0B657F446 /* HYBLoadImageView.h */,
+				C0B0A23CC9DE2B0DAA901BFF977EE1CF /* HYBLoadImageView.m */,
+				A2BED4B90252DC05668F8B7047F6067A /* HYBLoopScrollView.h */,
+				29ED9023A174189571D0E85A01AE0F77 /* HYBLoopScrollView.m */,
+				CF66969C3604869C64B1A0FD5D975146 /* HYBPageControl.h */,
+				5AAFAB0C532FB97F3F704EB1764A1C58 /* HYBPageControl.m */,
+				ACCFCEC31E3D3308DDE89AEDBEE1E604 /* UIView+HYBUIViewCommon.h */,
+				4C0F6A80E8F77DF129BE8D2719B2A29B /* UIView+HYBUIViewCommon.m */,
+				6DDA658B8437B98A4414ABF7BF4BD60F /* Support Files */,
+			);
+			path = HYBLoopScrollView;
+			sourceTree = "<group>";
+		};
+		6DDA658B8437B98A4414ABF7BF4BD60F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF657E9D201664B17D7C3FCDCE83B6B /* HYBLoopScrollView.xcconfig */,
+				FC1F2AAB26F8DA4C68BAA42E6466187B /* HYBLoopScrollView-dummy.m */,
+				E8659315175C1F3F7F42801DA437E649 /* HYBLoopScrollView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HYBLoopScrollView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BEBBEDF23A38DC865CE77FD227A4CDD1 /* Pods */,
+				C677396695922AB2F6BB284AA3575C0B /* Products */,
+				B4301DDD67D002D10AD6A6502A9161C1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B4301DDD67D002D10AD6A6502A9161C1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31DE3351C8D42C336D7C116FAE804753 /* Pods-类似QQ主页的侧滑 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEBBEDF23A38DC865CE77FD227A4CDD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ABBFD6B0CD6CDE6E86D82D87FF36847 /* FMDB */,
+				6931BEB2FFFB841FC1EC085F2D059CE0 /* HYBLoopScrollView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C677396695922AB2F6BB284AA3575C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				380753CC6214792458D207AE4961D385 /* libFMDB.a */,
+				06E6E7F3A02D66DDB678058807D28863 /* libHYBLoopScrollView.a */,
+				7BF9A9C0B59233D93C3ABA2F5D398ABE /* libPods-类似QQ主页的侧滑.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F6119A226D4D86F14131132A2DD807 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DEA9C7BB5F7BA1524A3E28FEF70DE /* FMDB.xcconfig */,
+				F103B81D7BBE28C7C2BA818E084F27DC /* FMDB-dummy.m */,
+				65A7D3DADC8CF209A6D76F6C9FCBC806 /* FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B2D82357BE4C2A10AB2CD4724B8E654 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */,
+				B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */,
+				0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */,
+				D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */,
+				313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */,
+				F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB51228BED141618E559D23E817A88B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEEB5268DCE3346AF565040928C1B26 /* HYBLoadImageView.h in Headers */,
+				579715361A5932075B3A3EE6DC057517 /* HYBLoopScrollView.h in Headers */,
+				EBB40C1A61824C9A3FE7F4DF4CC5F0A6 /* HYBPageControl.h in Headers */,
+				AE89D053889B16F83EF204A5C7FAC050 /* UIView+HYBUIViewCommon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		444D8BC4BC851AA3A8C29BCFD5452928 /* HYBLoopScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6E18C940BD6FE3877F8638872BDE0C /* Build configuration list for PBXNativeTarget "HYBLoopScrollView" */;
+			buildPhases = (
+				AA6DC91199557E6404EB46E8464A98F7 /* Sources */,
+				E52C8E6543247E32D98925750F6AC2F8 /* Frameworks */,
+				BBB51228BED141618E559D23E817A88B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYBLoopScrollView;
+			productName = HYBLoopScrollView;
+			productReference = 06E6E7F3A02D66DDB678058807D28863 /* libHYBLoopScrollView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		507A75C05C3B26CC89B5C50026CF3D18 /* Pods-类似QQ主页的侧滑 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6064D90E6A0A035F7CFF94B68ABABBAE /* Build configuration list for PBXNativeTarget "Pods-类似QQ主页的侧滑" */;
+			buildPhases = (
+				4335BFF68F3588C255334D117C318CAA /* Sources */,
+				B36F9D77B72E6739E5EC8E8111F1F029 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6451D1C6CC031575B328F7C3F5DB263 /* PBXTargetDependency */,
+				392BAFCAF823D008105226E0B6F5C794 /* PBXTargetDependency */,
+			);
+			name = "Pods-类似QQ主页的侧滑";
+			productName = "Pods-类似QQ主页的侧滑";
+			productReference = 7BF9A9C0B59233D93C3ABA2F5D398ABE /* libPods-类似QQ主页的侧滑.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC899FD215914230EB9D8B57AD910D0 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				050B66E154969A68944942A22BD9B314 /* Sources */,
+				84AF63084FFE4472EFC6131BD113B13D /* Frameworks */,
+				8B2D82357BE4C2A10AB2CD4724B8E654 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 380753CC6214792458D207AE4961D385 /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C677396695922AB2F6BB284AA3575C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */,
+				444D8BC4BC851AA3A8C29BCFD5452928 /* HYBLoopScrollView */,
+				507A75C05C3B26CC89B5C50026CF3D18 /* Pods-类似QQ主页的侧滑 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		050B66E154969A68944942A22BD9B314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA027706DD6805766F1F4EC548E72440 /* FMDatabase.m in Sources */,
+				A350C5704A1F233DAD830E081E00F8C1 /* FMDatabaseAdditions.m in Sources */,
+				0EF8E9AA652DBE2745A7D5C8CD2E3BDE /* FMDatabasePool.m in Sources */,
+				282081E035E7A843068E8BCC2E07C217 /* FMDatabaseQueue.m in Sources */,
+				3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */,
+				DEFA3504695E9DFDE1177DAB22884470 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4335BFF68F3588C255334D117C318CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E447CE49577FC0077CF160C37A5F22 /* Pods-类似QQ主页的侧滑-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6DC91199557E6404EB46E8464A98F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306C1F93EAE86DA2E74CAB54CC658B12 /* HYBLoadImageView.m in Sources */,
+				D35AEE78FD4538FE9F42758D89A7EEAE /* HYBLoopScrollView-dummy.m in Sources */,
+				3846C778E2E18BCD9B81794A263B7DC8 /* HYBLoopScrollView.m in Sources */,
+				4AA17907FF3A29BF7CA5E9E9A120F7D6 /* HYBPageControl.m in Sources */,
+				53D652D0F89B5A655DEFDA92E828017A /* UIView+HYBUIViewCommon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		392BAFCAF823D008105226E0B6F5C794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYBLoopScrollView;
+			target = 444D8BC4BC851AA3A8C29BCFD5452928 /* HYBLoopScrollView */;
+			targetProxy = F1FF7C462112E427C547D770B890D6FE /* PBXContainerItemProxy */;
+		};
+		F6451D1C6CC031575B328F7C3F5DB263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */;
+			targetProxy = DB6C0542672BC45E6123F72E2A8FCF74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BC8ACAA1BBCD83153EF57E2B89FB594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4DEA9C7BB5F7BA1524A3E28FEF70DE /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0EF600252C2FE58250473CC9A074C7EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF657E9D201664B17D7C3FCDCE83B6B /* HYBLoopScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYBLoopScrollView/HYBLoopScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1DD80B6D17287E2ADF1C4BD7643E0339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF657E9D201664B17D7C3FCDCE83B6B /* HYBLoopScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYBLoopScrollView/HYBLoopScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		761BCCEA975BA00D21198E5E32B5184C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12076E7EAE6E028AA1368852867FA45A /* Pods-类似QQ主页的侧滑.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		81EBE3019F2484824BD46E5B21A5B500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3AE59A3200FC561EFCE5AAF057E20D /* Pods-类似QQ主页的侧滑.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C7BA904A87CCDF175A63DBF60D6810A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4DEA9C7BB5F7BA1524A3E28FEF70DE /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC899FD215914230EB9D8B57AD910D0 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC8ACAA1BBCD83153EF57E2B89FB594 /* Debug */,
+				C7BA904A87CCDF175A63DBF60D6810A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6064D90E6A0A035F7CFF94B68ABABBAE /* Build configuration list for PBXNativeTarget "Pods-类似QQ主页的侧滑" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761BCCEA975BA00D21198E5E32B5184C /* Debug */,
+				81EBE3019F2484824BD46E5B21A5B500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6E18C940BD6FE3877F8638872BDE0C /* Build configuration list for PBXNativeTarget "HYBLoopScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD80B6D17287E2ADF1C4BD7643E0339 /* Debug */,
+				0EF600252C2FE58250473CC9A074C7EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
